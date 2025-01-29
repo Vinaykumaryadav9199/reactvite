@@ -38,7 +38,7 @@ function Payment() {
     }).catch((err)=>{
         console.log(err)
     })
-
+ console.log(paymentform)
     setSubmitted(true);
   };
 
